@@ -1,4 +1,4 @@
-# JPrOS 2019 jPOSTショートコース - jPOSTdbで公開されているデータの見方 -
+# JPrOS 2019 jPOSTショートコース <br>- jPOSTdbで公開されているデータの見方 -
 情報・システム研究機構
 データサイエンス共同利用基盤施設
 ライフサイエンス統合データベースセンター  
@@ -10,7 +10,6 @@
 
 今回のショートコースでは、ウェブブラウザを使って jPOSTdb の操作を行います
   - jPOSTdbの概要
-  - 
   - データセットを検索してみる
     - データセットページの概要
   - タンパク質を検索してみる
@@ -35,7 +34,7 @@
 ## jPOSTdbとは
 jPOSTdbは質量分析に基づくプロテオームデータを"再解析"をし、その結果を収録したデータベースです。
 
-![jpost](https://github.com/moriya-dbcls/jPOSTdb/blob/master/moriya/2019/images/jpost.png)
+![jpost](https://github.com/moriya-dbcls/jPOSTdb/blob/master/2019/images/jpost.png)
 
 - 計算機上で表現することで、様々な可視化が行えるようになり、パスウェイ全体を俯瞰したり、一部の相互作用に注目したり、生命現象の理解が行い易くなります
 - また、データベース化することで網羅的に扱えるようになり、コンピューターでの利用が可能になします
