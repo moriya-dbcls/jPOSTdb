@@ -110,3 +110,16 @@ repositoryに登録したデータを直接見れるわけではありません�
 - 色はスペクトルカウントに基づいた色になっており、青が少なく、赤が多いことを意味しています
 
 ![jpost](https://github.com/moriya-dbcls/jPOSTdb/blob/master/2019/images/jpostdb_09.png)
+
+---
+## タンパク質をみてみよう
+- ページ一番上の"Search"からTopの検索画面に戻れます
+- テーブルを"Dataset"から"Protein"に切り替えます
+- 表示されるデータの都合が良いので、今回は"BCLF1"で検索
+
+![jpost](https://github.com/moriya-dbcls/jPOSTdb/blob/master/2019/images/jpostdb_10.png)
+
+- ヒトとマウスでタンパク質が引っかかりました
+- Protein nameをクリックするとタンパク質ページに以降します。今回はヒトのBCLF1を見てみましょう
+
+
