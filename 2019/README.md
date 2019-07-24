@@ -122,4 +122,32 @@ repositoryに登録したデータを直接見れるわけではありません�
 - ヒトとマウスでタンパク質が引っかかりました
 - Protein nameをクリックするとタンパク質ページに以降します。今回はヒトのBCLF1を見てみましょう
 
+![jpost](https://github.com/moriya-dbcls/jPOSTdb/blob/master/2019/images/jpostdb_11.png)
 
+- タンパク質の情報テーブルを表示しています
+- ヒトのタンパク質の場合iMPAQT へのリンクがあります
+
+![jpost](https://github.com/moriya-dbcls/jPOSTdb/blob/master/2019/images/jpostdb_12.png)
+
+- タンパク質ブラウザを表示しています
+  - スクロール操作で拡大縮小できます
+- プルダウンメニューから幼児する情報を追加できます
+  - Peptide: 検出されたペプチドのマッピング（Default）
+    - 赤は同定数の多いペプチドを示しています
+  - Phospho site: リン酸化部位
+    - 軸の長さは検出された量を、そのポジションをカバーしているペプチドの数で補正した割合を示しています
+    - "count" ボタンをクリックすると実数に変わります
+  - P-site linkage: リン酸化部位のペプチド上での共起情報
+  - UniProt annotation: UniProtに収録されている既知の修飾情報
+
+![jpost](https://github.com/moriya-dbcls/jPOSTdb/blob/master/2019/images/jpostdb_13.png)
+
+- isoform間、タンパク質間のペプチドの共有情報を表示しています
+  - 同じ色のBoxが同一のペプチドになります
+
+---
+## Sliceを作ってみてみよう
+
+
+---
+## Slice同士を比較してみよう
