@@ -40,6 +40,7 @@ repositoryに登録したデータを直接見れるわけではありません�
 
 - 収録されたデータセット毎にプロテオームデータを俯瞰できます
   - Protein EvidenceやKEGG Pathwayへのマッピングができます
+- UniProt (SwissProt)に紐付けることでタンパク質データを管理しています
 - タンパク質毎に同定されたペプチドやisoformの情報を見ることができます
 - 興味のあるデータセット複数を切り出して、データを俯瞰できます（Slice）
 - 簡易的なツールを用いてSlice間の比較を行うことができます
@@ -84,3 +85,25 @@ repositoryに登録したデータを直接見れるわけではありません�
 - テーブルの "DS87_1" をクリックしてデータセットDS87_1の中身を表示しましょう
 
 ![jpost](https://github.com/moriya-dbcls/jPOSTdb/blob/master/2019/images/jpostdb_04.png)
+
+- データセットのメタデータがまとめられたテーブルが表示されます
+- Project ID、Project title、Project descriptionはリポジトリに登録したときのものが表示されます
+- Sampleの情報、統計情報、データをまとめてDLするリンクがあります
+
+![jpost](https://github.com/moriya-dbcls/jPOSTdb/blob/master/2019/images/jpostdb_05.png)
+
+- 同定されたタンパク質の染色体毎の数を表示しています
+  - UniProt IDベースのカウントになるので、遺伝子数とは厳密には異なります
+
+![jpost](https://github.com/moriya-dbcls/jPOSTdb/blob/master/2019/images/jpostdb_06.png)
+
+- Protein existenceのレベルの内訳を表示しています
+  - ヒトはneXtProtに基づいており、それ以外の生物種はUniProtのデータに基づいています
+  - それぞれのタンパク質のリストを見ることができます
+
+![jpost](https://github.com/moriya-dbcls/jPOSTdb/blob/master/2019/images/jpostdb_07.png)
+![jpost](https://github.com/moriya-dbcls/jPOSTdb/blob/master/2019/images/jpostdb_08.png)
+
+- データセットのタンパク質をKEGG Pathwayにマッピングすることができます
+  - 色はスペクトルカウントに基づいた色になっており、青が少なく、赤が多いことを意味しています
+
