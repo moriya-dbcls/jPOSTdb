@@ -102,8 +102,11 @@ repositoryに登録したデータを直接見れるわけではありません�
   - それぞれのタンパク質のリストを見ることができます
 
 ![jpost](https://github.com/moriya-dbcls/jPOSTdb/blob/master/2019/images/jpostdb_07.png)
-![jpost](https://github.com/moriya-dbcls/jPOSTdb/blob/master/2019/images/jpostdb_08.png)
 
 - データセットのタンパク質をKEGG Pathwayにマッピングすることができます
-  - 色はスペクトルカウントに基づいた色になっており、青が少なく、赤が多いことを意味しています
 
+![jpost](https://github.com/moriya-dbcls/jPOSTdb/blob/master/2019/images/jpostdb_08.png)
+
+- 色はスペクトルカウントに基づいた色になっており、青が少なく、赤が多いことを意味しています
+
+![jpost](https://github.com/moriya-dbcls/jPOSTdb/blob/master/2019/images/jpostdb_09.png)
