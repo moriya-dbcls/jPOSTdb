@@ -208,8 +208,7 @@ repositoryに登録したデータを直接見れるわけではありません�
 ![jpost](https://github.com/moriya-dbcls/jPOSTdb/blob/master/2019/images/jpostdb_21.png)
 
 - 選択した有意な変動の見られたタンパク質リストを用いて、エンリッチメント解析を行うことができます
+  - "KEGG Pathway"のカテゴリでエンリッチメント解析をしてみましょう
 
-
-
-
+![jpost](https://github.com/moriya-dbcls/jPOSTdb/blob/master/2019/images/jpostdb_22.png)
 
