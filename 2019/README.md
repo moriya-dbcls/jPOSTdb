@@ -147,7 +147,7 @@ repositoryに登録したデータを直接見れるわけではありません�
 
 ---
 ## Sliceを作ってみてみよう
-- Sliceとは、、、
+- Sliceとは、データベースからユーサの興味のあるデータセットを切り出した、データベースのサブセットです
 - iPS細胞のデータセットでSliceを作ってみよう
   - Topの検索ページで"iPS cell"でデータセットを検索します
 
@@ -208,7 +208,8 @@ repositoryに登録したデータを直接見れるわけではありません�
 ![jpost](https://github.com/moriya-dbcls/jPOSTdb/blob/master/2019/images/jpostdb_21.png)
 
 - 選択した有意な変動の見られたタンパク質リストを用いて、エンリッチメント解析を行うことができます
-  - "KEGG Pathway"のカテゴリでエンリッチメント解析をしてみましょう
+  - KEGG Pathway, GO, ChIP-Atlasなどを用いて解析ができます
+  - 今回は"KEGG Pathway"のカテゴリでエンリッチメント解析をしてみましょう
 
 ![jpost](https://github.com/moriya-dbcls/jPOSTdb/blob/master/2019/images/jpostdb_22.png)
 
