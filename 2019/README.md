@@ -219,7 +219,7 @@ repositoryに登録したデータを直接見れるわけではありません�
     - 白いノードはサイズの上限を設定しているので、色付きノードより大きく表示されません
   - 黄色からオレンジ色のノードはエンリッチしているカテゴリを意味しています
     - 色の濃いノードがとりエンリッチしています
-- jPOSTdbはChIP-Altasと連携しており、ヒトをはじめ、いくつかの生物種ではjPOSTdbで変動解析した結果をChIP-Atlasの解析フォームを用いてエンリッチメント解析ができます
+- jPOSTdbは[ChIP-Altas](https://chip-atlas.org/)と連携しており、ヒトをはじめ、いくつかの生物種ではjPOSTdbで変動解析した結果をChIP-Atlasの解析フォームを用いてエンリッチメント解析ができます
   - 今回は説明しませんがChIP-Atlasの詳しい使い方については[TogoTV](http://togotv.dbcls.jp/20190105.html)を参照ください
 
 ![jpost](https://github.com/moriya-dbcls/jPOSTdb/blob/master/2019/images/jpostdb_23.png)
