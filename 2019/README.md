@@ -230,6 +230,6 @@ jPOSTdbでできること、見れること
 ## 今後の予定
 - TogoDBという、csvやtsvのテーブルファイルから公開データベースを作成するサービスがあります
 - ここで公開したプロテオームデータに対して、今回紹介したjPOSTdbと同程度の解析などを行える環境の開発を検討中
-  - タンパク質リストとスペクトルカウントのデータなど
+  - タンパク質リストとスペクトルカウントのデータなど[(例)](http://dev.togodb.org/db/ips_proteome_test)
 
 ![jpost](https://github.com/moriya-dbcls/jPOSTdb/blob/master/2019/images/jpostdb_24.png)
