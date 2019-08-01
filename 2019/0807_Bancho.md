@@ -7,7 +7,7 @@
 守屋 勇樹 moriya@dbcls.rois.ac.jp  
 2019/08/07 JST
 
---
+---
 ## 講習会の流れ  
 
 今回のショートコースでは、ウェブブラウザを使って jPOSTdb の操作を行うことで、データベースの使い方を練習していきます
@@ -21,7 +21,7 @@
   - Sliceを作成してみる
   - ２つのSliceを比較してみる
 
---
+---
 #### 講習に際しての注意とお願い
 
 - みんなで同じ回線を使って同時にアクセスするとサイトにつながりにくくなることが予想されます。
@@ -189,7 +189,8 @@ jPOSTdbの特徴
 
 - 統計情報が表示されます
 - また、簡易的な変動解析をすることができます
-  - 現時点では定量データをあまり収録していないので、スペクトルカウントによる半定量をしています
+  - 現時点では定量データをあまり収録していないので、スペクトルカウントを補正して半定量をしています
+    - スペクトルカウントはタンパク質に紐付いたスペクトルの数のことです
   - 今回は"Empirical Bayes estimation"を使います
     - Wilcoxon rank sum testはサンプル数が多いときによく使われます
     - Empirical Bayes estimationは比較的少ないサンプル数でも比較が可能です
@@ -221,14 +222,6 @@ jPOSTdbの特徴
   - 黄色からオレンジ色のノードはエンリッチしているカテゴリを意味しています
     - 色の濃いノードがとりエンリッチしています
 - jPOSTdbは[ChIP-Altas](https://chip-atlas.org/)と連携しており、ヒトをはじめ、いくつかの生物種ではjPOSTdbで変動解析した結果をChIP-Atlasの解析フォームを用いてエンリッチメント解析ができます
-  - 今回は説明しませんがChIP-Atlasの詳しい使い方については[TogoTV](http://togotv.dbcls.jp/20190105.html)を参照ください
 
 ![jpost](https://github.com/moriya-dbcls/jPOSTdb/blob/master/2019/images/jpostdb_23.png)
 
----
-## 今後の予定
-- TogoDBという、csvやtsvのテーブルファイルから公開データベースを作成するサービスがあります
-- ここで公開したプロテオームデータに対して、今回紹介したjPOSTdbと同程度の解析などを行える環境の開発を検討中
-  - タンパク質リストとスペクトルカウントのデータなど[(例)](http://dev.togodb.org/db/ips_proteome_test)
-
-![jpost](https://github.com/moriya-dbcls/jPOSTdb/blob/master/2019/images/jpostdb_24.png)
