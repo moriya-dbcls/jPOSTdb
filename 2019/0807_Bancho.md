@@ -1,4 +1,3 @@
-# [https://tinyurl.com/2019-jpost](https://tinyurl.com/2019-jpost)にアクセスすると、このページが開きます
 
 # 統合データベース講習会：AJACS番町3 <br>- jPOST の使い方 -
 情報・システム研究機構
