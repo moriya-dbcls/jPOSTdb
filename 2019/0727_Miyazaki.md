@@ -1,4 +1,3 @@
-# [https://tinyurl.com/2019-jpost](https://tinyurl.com/2019-jpost)にアクセスすると、このページが開きます
 
 # JPrOS 2019 jPOSTショートコース <br>- jPOSTdbで公開されているデータの見方 -
 情報・システム研究機構
